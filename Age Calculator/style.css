@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://source.unsplash.com/1600x900/?nature,abstract') no-repeat center/cover;
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  width: 350px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color:#ed6a2d;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #393838;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  color: rgb(148, 148, 148);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #ff4e50, #f9d423);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 78, 80, 0.6);
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-family: Times New Roman;
+}
+
+.error {
+  color: #ff8080;
+  font-size: 14px;
+  margin-top: 10px;
+}
